@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Rubik:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;;
+}
+body{
+    background:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.fondo{
+    background-color: rgb(159, 161, 161);
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 1100px;
+    box-shadow: 0 35px 55px rgba(0, 0,0,0.1);
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0,0,0.1);
+}
+.left-side{
+    background-color: rgb(37, 37, 37);
+    width: 18rem;
+}
+.fondo-negro{
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    display: flex;
+    align-items: center;
+    width: 60.5rem;
+    height: 220px;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2rem;
+}
+.texto-nombre{
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    
+    width: 57rem;
+    height: 214px;
+    margin-left: 2px;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 110px;
+}
+.imagen{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-left: 1rem;
+    box-shadow: 0 35px 55px rgba(0, 0,0,0.1);
+
+}
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 29rem;
+    height: 214px;
+    margin-left: 6rem;
+    
+}
+.julian{
+    text-align: center;
+   
+    color: rgb(44, 44, 44);
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+.desarrollo-web{
+    font-size: 1rem;
+    position: absolute;
+    color: rgb(99, 98, 98);
+    margin-top: 6rem;
+
+}
+
+.educacion{
+    color: rgb(44, 44, 44);
+    margin-top: 18rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+hr{
+    margin-right: 4rem;
+    margin-top: 0.2rem;
+}
+ul.carreras{
+    margin-left: 20px;
+    margin-top: 1rem;
+    
+}
+
+ul.cursos-carreras{
+    margin-left: 20px;
+    margin-top: 1rem;
+    
+}
+li{
+    font-family:'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+}
+p{
+    font-family:'Poppins', sans-serif;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+
+}
+.cursos{
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3rem;
+    color: rgb(44, 44, 44);
+}
+.experiencia{
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3rem;
+    color: rgb(44, 44, 44);
+}
+ul.cursos-carreras{
+    margin-left: 20px;
+    margin-top: 1rem;
+    
+}
+ul.titulo-experiencia{
+    margin-left: 20px;
+    margin-top: 1rem;
+    color: rgb(44, 44, 44);
+}
+.soporte-472{
+    font-family:'Poppins', sans-serif;
+    font-size: 12px;
+    
+}
+.soporte-alcaldia{
+    font-family:'Poppins', sans-serif;
+    font-size: 12px;
+    
+}
+
+.perfil{
+    margin-top: 18rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(241, 226, 15);
+}
+.linea-perfil{
+    width: 13.5rem;
+    color: rgb(241, 226, 15);
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+}
+.p-perfil{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family:'Poppins', sans-serif ;
+    color: #fff;
+}
+.referencias{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(241, 226, 15);
+}
+.liena-referecias{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+}
+.telefono{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.numero-telefono{
+    margin-top: 1.7rem;
+    margin-left: 5rem;
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 100rem;
+    color: rgb(216, 216, 216);
+    
+}
+.mail{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+} 
+.correo-mail{
+    margin-top: 1.7rem;
+    margin-left: 5rem;
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(216, 216, 216);
+    
+}
+.linkedin{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+} 
+.perfil-linkedin{
+    margin-top: 1.7rem;
+    margin-left: 5rem;
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(216, 216, 216);
+}
+.skills{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(241, 226, 15);
+}
+.liena-habilidades{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+}
+.lista-skils{
+    margin-top: 1rem;
+}
+.li-skills{
+    margin: 0.3rem;
+    margin-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    list-style: none;
+    color: rgb(255, 253, 253);
+}
+.contenedor-habilidades{
+    margin-top: 1rem;
+}
+.box{
+   position: relative;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 120px 1fr;
+   justify-content: center;
+   
+   margin-left: 2rem;
+    
+}
+.box h4{
+    text-transform: uppercase;
+    color: rgb(211, 209, 209);
+    font-weight: 500;
+
+}
+.percent{
+    position: relative;
+    width: 62%;
+    height: 10px;
+    background:#f0f0f0 ;
+    margin-right: 3rem;
+}
+.porcentaje{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #b4b4b4;
+}
+
+.titulo-intereses{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 1.5rem;
+}
+.linea-intereses{
+    margin-top: 3rem;
+}
+.guitarra{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+}
+.diseño{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 3rem ;
+}
+.pescar{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 3rem ;
+}
+.tres-d{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 3rem ;
+}
+.programar{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 3rem ;
+}
+.cantar{
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 3rem ;
+}
+.idiomas{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(241, 226, 15);
+}
+.liena-idiomas{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+}
+.contenedor-idiomas{
+    margin-top: 1rem;
+    
+}
+.boxx{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    justify-content: center;
+    
+    margin-left: 2rem;
+     
+ }
+ .boxx h4{
+     text-transform: uppercase;
+     color: rgb(211, 209, 209);
+     font-weight: 500;
+ 
+ }
+ .percentt{
+     position: relative;
+     width: 62%;
+     height: 10px;
+     background:#fff ;
+     margin-right: 3rem;
+ }
+ .porcentajee{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+ }
+ @media (min-width:600px) 
+ {
+    .fondo{
+        display: grid;
+        grid-template-columns: repeat(50% 50%);
+    }
+ }
+ @media (max-width:600px) 
+ {
+   
+   .contenedor
+   {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .right-side{
+    width: 18rem;
+   }
+   
+
+ }
